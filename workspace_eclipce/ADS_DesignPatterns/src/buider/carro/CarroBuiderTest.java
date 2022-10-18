@@ -7,8 +7,7 @@ import org.junit.jupiter.api.Test;
 class CarroBuiderTest {
 
 	@Test
-	void daveConstruirUmCarroPeloBuider
-	() {
+	void daveConstruirUmCarroPeloBuider() {
 		//partes
 		Porta portaMotorista = new Porta();
 		Porta portaPassageiro = new Porta();
@@ -33,6 +32,7 @@ class CarroBuiderTest {
 		assertNotNull(carroConstruido.getMotor());
 		assertNotNull(carroConstruido.getComputadorBordo());
 		assertNotNull(carroConstruido.getFreioABS());
+		assertEquals(carroConstruido.getPortas().length,2);
 	}
 
 }

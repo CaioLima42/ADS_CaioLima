@@ -1,0 +1,13 @@
+package strategy.frete;
+
+public class ServisoFreteSedex2 {
+    if(serviso.equals("sedex")) {
+        return 50.00;
+    }
+    else if(pesoEmKg < 20.00) {
+        return 70.00;
+    }
+    else {
+        return 90.00;
+    }
+}

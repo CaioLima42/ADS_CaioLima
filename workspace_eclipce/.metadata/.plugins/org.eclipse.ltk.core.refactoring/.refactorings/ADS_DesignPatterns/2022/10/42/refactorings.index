@@ -1,0 +1,5 @@
+1665443816921	Rename type 'ServisoFreteDHL'
+1665445521046	Delete element
+1665445986079	Rename method 'calculaValor'
+1665446065853	Delete element
+1665446098209	Extract interface 'Fretavel'
